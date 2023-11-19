@@ -4,7 +4,8 @@ const Layout = (props) => {
   return (
     <Background>
       <Page>
-        {props.children}
+        <Column>{props.left}</Column>
+        <Column>{props.right}</Column>
       </Page>
     </Background>
   )
@@ -15,11 +16,9 @@ export default Layout;
 const Background = styled.div`
   width: 100vw;
   min-height: 100vh;
-
   display: flex;
-
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   background: #7E41FF;
 `;
 
@@ -31,4 +30,10 @@ const Page = styled.div`
   border: 5px solid #000;
   background: #FCC526;
   box-shadow: 24px 20px 0px 0px rgba(52, 52, 51, 0.35);
+  display: flex;
+  flex-direction: row;
+`;
+
+const Column = styled.div`
+  flex: 1;
 `;
