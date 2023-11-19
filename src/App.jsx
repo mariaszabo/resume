@@ -1,10 +1,12 @@
 import './normalize.css';
+import Layout from './components/Layout';
+
 
 export default function App() {
   return (
-    <main>
-     Hello Resume! =)
-    </main>
+    <Layout>
+    bau  
+    </Layout>
   )
 }
 
