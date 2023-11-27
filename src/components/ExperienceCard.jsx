@@ -1,30 +1,35 @@
 import styled from 'styled-components';
 
-const ExperienceCard = () => {
+const ExperienceCard = (props) => {
   return (
     <Container>
       <SpacedColumn>
-        <Title>Co-Founder</Title>
-        <Period>Aug 2023 - Current...</Period>
+        <Title>{props.title}</Title>
+        <Period>{props.start} - {props.end}</Period>
       </SpacedColumn>
       <SpacedColumn>
         <Company>
-          <CompanyLogo src="https://img.icons8.com/plasticine/100/mixer-logo.png" alt="mixer-logo"/>
-          <CompanyName>tenxbase</CompanyName>
+          <CompanyLogo src={props.CompanyLogo}/>
+          <CompanyName>{props.CompanyName}</CompanyName>
         </Company>
-        <Location>Bucharest, RO</Location>
+        <Location>{props.location}</Location>
       </SpacedColumn>  
       <BulletPoints>
-        <Point>Teach</Point>
-        <Point>Practice</Point>
-        <Point>Repeat</Point>
-        <Point>Web Development</Point>
-        <Point>Programming </Point>
-        <Point>Getting jobs</Point>
+        {props.bulletPoints?.map(point => (
+          <Point>{point}</Point>
+        ))}
       </BulletPoints>
     </Container>
   )
 }
+
+/*const Color = (props) => {
+  return (
+    <ContainerStyle>{props.stil}</ContainerStyle>
+  )
+}
+--> ramane de vazut
+*/
 
 export default ExperienceCard;
 
@@ -40,6 +45,7 @@ const Container = styled.div`
   background: #FFF;
   box-shadow: 15px 15px 0px 0px #3DC39B;
 `;
+
 
 const SpacedColumn = styled.div`
   display: flex;
