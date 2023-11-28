@@ -23,14 +23,12 @@ const ExperienceCard = (props) => {
   )
 }
 
-/*const Color = (props) => {
+/*const CardColor = (props) => {
   return (
     <ContainerStyle>{props.stil}</ContainerStyle>
   )
 }
---> ramane de vazut
 */
-
 export default ExperienceCard;
 
 const Container = styled.div`
