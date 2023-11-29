@@ -21,6 +21,7 @@ const WorkExperience = () => {
             'Programming',
             'Getting jobs'
           ]}
+          color = "#3DC39B"
         />
         <ExperienceCard 
             title = "Tech Lead"
@@ -39,7 +40,9 @@ const WorkExperience = () => {
               'Presenations',
               'Web / Mobile'
             ]}
+            color = "#928CF8"
         />
+        
         <ExperienceCard
             title = "Graphic designer"
             start = "Nov 2020"
@@ -55,6 +58,7 @@ const WorkExperience = () => {
                 'Photoshop After Effects',
                 'Design skills'
             ]}
+            color = "#FE74A6"
         />
         <ExperienceCard 
             title = " Junior Software Developer"
@@ -69,6 +73,7 @@ const WorkExperience = () => {
               'Researching',
               'Web / Mobile'
             ]}
+            color = "#5B6DFF"
         />
       </ExperienceList>
     </div>
