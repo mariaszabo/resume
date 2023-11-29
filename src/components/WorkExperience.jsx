@@ -24,7 +24,7 @@ const WorkExperience = () => {
         />
         <ExperienceCard 
             title = "Tech Lead"
-            start = "Nov 2019"
+            start = "Nov 2021"
             end = "Aug 2023"
             CompanyLogo = "https://img.icons8.com/color/48/nasa.png"
             CompanyName = "NASA"
@@ -42,8 +42,8 @@ const WorkExperience = () => {
         />
         <ExperienceCard
             title = "Graphic designer"
-            start = "Nov 2017"
-            end = "Nov 2019"
+            start = "Nov 2020"
+            end = "Nov 2021"
             CompanyLogo = "https://img.icons8.com/color/48/cartoon_network.png"
             CompanyName = "Cartoon Network Studios"
             location = "Bucharest, RO"
@@ -58,8 +58,8 @@ const WorkExperience = () => {
         />
         <ExperienceCard 
             title = " Junior Software Developer"
-            start = "June 2016"
-            end = "Sep 2017"
+            start = "June 2019"
+            end = "Sep 2020"
             CompanyLogo = "https://img.icons8.com/clouds/100/axie-infinity.png"
             CompanyName = "Software Company"
             location = "Bucharest, RO"

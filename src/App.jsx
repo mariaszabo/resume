@@ -4,6 +4,8 @@ import Details from './components/Details';
 import WorkExperience from './components/WorkExperience';
 import Hobby from './components/Hobby';
 import Avatar from './components/Avatar';
+import Education from './components/Education';
+import Skills from './components/Skills';
 
 export default function App() {
   return (
@@ -18,6 +20,8 @@ export default function App() {
       right = {
         <div>
           <Avatar />
+          <Education />
+          <Skills />
         </div>
       }
     />
