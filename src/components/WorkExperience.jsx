@@ -7,16 +7,16 @@ const WorkExperience = () => {
       <Title>Work experience</Title>
       <ExperienceList>
         <ExperienceCard
-          title = "Co-Founder"
+          title = "Founder"
           start = "Aug 2023"
           end = "Current..."
           CompanyLogo = "https://img.icons8.com/plasticine/100/mixer-logo.png"
-          CompanyName = "tenxbase"
-          location = "Bucharest, RO"
+          CompanyName = "Mars XDimension"
+          location = "Craiova, RO"
           bulletPoints = {[
             'Teach',
             'Practice',
-            'Repeat',
+            'Make people happy',
             'Web Development',
             'Programming',
             'Getting jobs'
@@ -26,8 +26,8 @@ const WorkExperience = () => {
             title = "Tech Lead"
             start = "Nov 2019"
             end = "Aug 2023"
-            CompanyLogo = "https://img.icons8.com/ultraviolet/40/000000/change.png"
-            CompanyName = "Software Company"
+            CompanyLogo = "https://img.icons8.com/color/48/nasa.png"
+            CompanyName = "NASA"
             location = "Bucharest, RO"
             bulletPoints = {[
               'Visual Design',
@@ -41,23 +41,23 @@ const WorkExperience = () => {
             ]}
         />
         <ExperienceCard
-            title = "Senior Software Developer"
+            title = "Graphic designer"
             start = "Nov 2017"
             end = "Nov 2019"
-            CompanyLogo = "https://img.icons8.com/nolan/64/1A6DFF/C822FF/cards.png"
-            CompanyName = "Software Company"
+            CompanyLogo = "https://img.icons8.com/color/48/cartoon_network.png"
+            CompanyName = "Cartoon Network Studios"
             location = "Bucharest, RO"
             bulletPoints = {[
                 'Visual Design',
                 'Prototyping',
                 'UX Researching',
-                'Principle',
-                'Web / Mobile',
-                'Front-end Dev'
+                'ToonBoom',
+                'Photoshop After Effects',
+                'Design skills'
             ]}
         />
         <ExperienceCard 
-            title = "Softare Developer"
+            title = " Junior Software Developer"
             start = "June 2016"
             end = "Sep 2017"
             CompanyLogo = "https://img.icons8.com/clouds/100/axie-infinity.png"

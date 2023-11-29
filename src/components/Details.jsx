@@ -3,17 +3,18 @@ import styled from 'styled-components';
 const Details = () => {
   return (
     <Container>
-      <Name>Andrei Stoica</Name>
+      <Name>Szabo Maria Elena</Name>
       <Title>Rockstar Developer</Title>
       <ContactRow>
         <Contact>+99 (99) 9.9999-9999</Contact>
-        <Contact>andrei@email.com </Contact>
+        <Contact>maria@email.com </Contact>
       </ContactRow>
     </Container>
   )
 }
 
 export default Details;
+
 
 const Container = styled.div`
   display: flex;
@@ -23,6 +24,7 @@ const Container = styled.div`
   margin-left: 58px;
   margin-bottom: 45px;
 `;
+  
 
 const Name = styled.span`
   color: #000;

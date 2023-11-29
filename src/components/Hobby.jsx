@@ -4,7 +4,7 @@ const Hobby = () => {
   return (
     <Container>
       <Title>Hobby</Title>
-      <Content>Sport./ .. Learning ./.. Music ./.. Travel ./.. Games</Content>
+      <Content>Reading./ .. Learning ./.. Music ./.. Turkish dramas</Content>
     </Container>
   )  
 }
@@ -14,6 +14,7 @@ export default Hobby;
 const Container = styled.div`
   display: flex;
   flex-direction: column;
+  
   gap: 10px;
 
   margin-top: 49px;

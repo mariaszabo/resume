@@ -3,6 +3,7 @@ import Layout from './components/Layout';
 import Details from './components/Details';
 import WorkExperience from './components/WorkExperience';
 import Hobby from './components/Hobby';
+import Avatar from './components/Avatar';
 
 export default function App() {
   return (
@@ -15,7 +16,9 @@ export default function App() {
         </div>
       }
       right = {
-        <div>right side</div>
+        <div>
+          <Avatar />
+        </div>
       }
     />
   )
